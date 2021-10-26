@@ -143,6 +143,14 @@ ul {
  margin: 13rem auto 0;
  position: relative;
 }
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
 }
 
 @media (min-width: 1440px) {
@@ -157,4 +165,13 @@ ul {
  margin: 17rem auto 0;
  position: relative;
 }
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
 }
