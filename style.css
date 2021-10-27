@@ -135,7 +135,7 @@ ul {
 @media only screen and (min-width: 750px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
@@ -157,7 +157,7 @@ ul {
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
@@ -179,7 +179,7 @@ ul {
 @media only screen and (min-width: 1024px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
@@ -201,7 +201,7 @@ ul {
 @media only screen and (min-width: 1024px) and (min-height: 1366px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
@@ -223,7 +223,7 @@ ul {
 @media only screen and (min-width: 1440px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
@@ -246,7 +246,7 @@ ul {
 @media only screen and (min-width: 1920px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100vw;
+ width: 100%;
  min-height: 812px;
  height: 100vh;
 }
