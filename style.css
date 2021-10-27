@@ -6,6 +6,7 @@ html,
 body {
   --black: hsl(240, 6%, 13%);
   --gray: hsl(240, 9%, 89%);
+  --purple: hsl(306, 41%, 40%);
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -99,12 +100,12 @@ ul {
   border-radius: 50%; 
   border-width: 0.0070rem;
   border-style: inset;
-  color: purple; 
+  color: var(--purple); 
 
 }
 
 
-@media (min-width: 400px) {
+@media only screen and (min-width: 400px) {
   .avatar {
     width: 10rem;
     margin: 10.5rem auto 0;
@@ -113,7 +114,7 @@ ul {
   
 }
 
-@media (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   .avatar {
     width: 10rem;
     margin: 8.8rem auto 0;
@@ -122,7 +123,7 @@ ul {
   
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .avatar {
     width: 10rem;
     margin: 6.5rem auto 0;
@@ -131,7 +132,7 @@ ul {
   
 }
 
-@media (min-width: 700px) {
+@media only screen and (min-width: 700px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
  width: 100vw;
@@ -153,7 +154,7 @@ ul {
 }
 }
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
  width: 100vw;
@@ -163,6 +164,29 @@ ul {
 .avatar {
  width: 10rem;
  margin: 17rem auto 0;
+ position: relative;
+}
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+}
+
+@media only screen and (min-width: 1920px) {
+  main {
+ background: url(images/Desktop.svg) no-repeat center/cover;
+ width: 100vw;
+ min-height: 812px;
+ height: 100vh;
+}
+.avatar {
+ width: 10rem;
+ margin: 19rem auto 0;
  position: relative;
 }
 ul {
