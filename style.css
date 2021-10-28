@@ -19,7 +19,8 @@ body {
 
 
 main {
-  background: url(images/background-purple.svg) no-repeat center/cover;
+  background: url(images/background-purple.svg) no-repeat center;
+  background-color: var(--black);
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -104,38 +105,10 @@ ul {
 
 }
 
-
-@media only screen and (min-width: 400px) {
-  .avatar {
-    width: 10rem;
-    margin: 10.5rem auto 0;
-    position: relative;
-  }
-  
-}
-
-@media only screen and (min-width: 500px) {
-  .avatar {
-    width: 10rem;
-    margin: 8.8rem auto 0;
-    position: relative;
-  }
-  
-}
-
-@media only screen and (min-width: 600px) {
-  .avatar {
-    width: 10rem;
-    margin: 6.5rem auto 0;
-    position: relative;
-  }
-  
-}
-
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100%;
+ width: 100vw;
  min-height: 812px;
  height: 100vh;
 }
@@ -157,7 +130,7 @@ ul {
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100%;
+ width: 100vw;
  min-height: 812px;
  height: 100vh;
 }
@@ -181,7 +154,7 @@ ul {
  background: url(images/Desktop.svg) no-repeat center/cover;
  width: 100%;
  min-height: 812px;
- height: 100vh;
+ height: 100%;
 }
 .avatar {
  width: 10rem;
@@ -201,7 +174,7 @@ ul {
 @media only screen and (min-width: 1024px) and (min-height: 1366px) {
   main {
  background: url(images/Desktop.svg) no-repeat center/cover;
- width: 100%;
+ width: 100vw;
  min-height: 812px;
  height: 100vh;
 }
@@ -253,6 +226,29 @@ ul {
 .avatar {
  width: 10rem;
  margin: 19rem auto 0;
+ position: relative;
+}
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+}
+
+@media only screen and (min-width: 2560px) {
+  main {
+ background: url(images/Desktop.svg) no-repeat center/cover;
+ width: 100%;
+ min-height: 812px;
+ height: 100vh;
+}
+.avatar {
+ width: 10rem;
+ margin: 35.5rem auto 0;
  position: relative;
 }
 ul {
