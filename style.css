@@ -101,7 +101,7 @@ ul {
   border-radius: 50%; 
   border-width: 0.0070rem;
   border-style: inset;
-  color: var(--purple); 
+  border-color: var(--purple); 
 
 }
 
